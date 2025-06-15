@@ -19,7 +19,7 @@ export default function ResultPage() {
 
   return (
     <>
-      <MobileFrame>
+      {/* <MobileFrame> */}
         <div>
           
           {
@@ -44,7 +44,7 @@ export default function ResultPage() {
             onClick={playAgain}
           > 再玩一次 </div>
         </div>
-      </MobileFrame>
+      {/* </MobileFrame> */}
     </>
   );
 }

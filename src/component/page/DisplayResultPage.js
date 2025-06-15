@@ -6,7 +6,7 @@ export default function DisplayResultPage({nextStep}) {
 
   return (
     <>
-      <MobileFrame>
+      {/* <MobileFrame> */}
         <div>
           <div>
             顯示我的失控可頌
@@ -18,7 +18,7 @@ export default function DisplayResultPage({nextStep}) {
               onClick={nextStep}
             > 查看結果 </div>
         </div>
-      </MobileFrame>
+      {/* </MobileFrame> */}
     </>
   );
 }

@@ -42,7 +42,7 @@ export default function QuestionPage({questionIndex, nextStep}) {
 
   return (
     <>
-      <MobileFrame>
+      {/* <MobileFrame> */}
         
 
         <Image className=' absolute top-0 -translate-y-1/2 ' src={circle2Img} alt='circle2Img' />
@@ -118,7 +118,7 @@ export default function QuestionPage({questionIndex, nextStep}) {
 
         <Image className=' absolute bottom-0 translate-y-1/2 ' src={circle2Img} alt='circle2Img' />
         
-      </MobileFrame>
+      {/* </MobileFrame> */}
     </>
   );
 }
